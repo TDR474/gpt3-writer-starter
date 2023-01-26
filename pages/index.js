@@ -43,13 +43,7 @@ import { useState } from 'react';
       <div className="container">
         <div className="header">
 
-          <div className="header-title">
-            <h1>Interative AI Powered By OpenAI</h1>
-          </div>
 
-          <div className="header-subtitle">
-            <h2>Ask me anything!</h2>
-          </div>
         </div>
 
         <div className="prompt-container">
@@ -71,7 +65,6 @@ import { useState } from 'react';
               </a>
             </div>
 
-          {/* New code I added here */}
           {apiOutput && (
           <div className="output">
             <div className="output-header-container">
@@ -89,13 +82,13 @@ import { useState } from 'react';
 
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>built by Calvin</p>
+            <p>built by </p>
           </div>
         </a>
       </div>
