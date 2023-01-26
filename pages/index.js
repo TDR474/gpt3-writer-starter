@@ -44,11 +44,11 @@ import { useState } from 'react';
         <div className="header">
 
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>Interative AI Powered By OpenAI</h1>
           </div>
 
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>Ask me anything!</h2>
           </div>
         </div>
 
